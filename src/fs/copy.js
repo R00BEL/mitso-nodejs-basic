@@ -1,5 +1,5 @@
 import fs from 'fs/promises';
-import path, { join } from 'path';
+import { join } from 'path';
 import { getPath } from "../utils/getPath.js";
 
 const copy = async () => {
